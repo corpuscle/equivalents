@@ -1,0 +1,15 @@
+{
+  "name": "equivalents",
+  "version": "3.0.1",
+  "description": "Translates quantities to equivalent quantities with a minimum of fuss.",
+  "main": "index.js",
+  "moduleDir": "src",
+  "assets": [
+    "favicon.ico",
+    "assets/**/*.*"
+  ],
+  "styles": [
+    "css/*.less",
+    "css/*.css"
+  ]
+}

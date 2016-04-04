@@ -1,1 +1,1 @@
-Equivalents translates quantities to equivalent quantities with the minimum of fuss.
+Equivalents translates quantities to equivalent quantities with a minimum of fuss.

@@ -1,11 +1,10 @@
 {
   "id": "uk.me.och.equivalents",
-  "version": "2.99.07",
+  "version": "3.0.1",
   "vendor": "Ian Miller",
   "type": "web",
   "main": "index.html",
   "title": "Equivalents",
   "icon": "icon.png",
-  "miniicon": "miniicon.png",
   "uiRevision": "2"
 }
