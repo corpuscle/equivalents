@@ -6,19 +6,25 @@
     "enyo",
     "onyx",
     "layout",
-    "enyo-ilib"
+    "enyo-ilib",
+    "enyo-webos",
+    "enyo-luneos"
   ],
   "sources": {
     "enyo": "https://github.com/enyojs/enyo.git",
     "onyx": "https://github.com/enyojs/onyx.git",
     "layout": "https://github.com/enyojs/layout.git",
-    "enyo-ilib": "https://github.com/enyojs/enyo-ilib.git"
+    "enyo-ilib": "https://github.com/enyojs/enyo-ilib.git",
+    "enyo-webos": "https://github.com/enyojs/enyo-webos.git",
+    "enyo-luneos": "https://github.com/JayCanuck/enyo-luneos.git"
   },
   "targets": {
     "enyo": "2.7.0",
     "onyx": "2.7.0",
     "layout": "2.7.0",
-    "enyo-ilib": "2.7.0"
+    "enyo-ilib": "2.7.0",
+    "enyo-webos": "2.7.0",
+    "enyo-luneos": "master"
   },
   "production": false,
   "devMode": true,

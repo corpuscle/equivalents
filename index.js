@@ -4,10 +4,14 @@
 	call to ready().
 */
 
+//require('enyo-luneos');
+
 var
 	ready = require('enyo/ready'),
 	App = require('./src/App');
 
 ready(function () {
+	window.Mojo = {relaunch: function(e) {}};
+	window.PalmSystem && PalmSystem.stageReady && PalmSystem.stageReady();
 	new App();
 });

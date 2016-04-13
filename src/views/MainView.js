@@ -5,10 +5,11 @@ var PaceAndSpeed = require('./PaceAndSpeed');
 var Altitude = require('./Altitude');
 var SchoolYears = require('./SchoolYears');
 var About = require('./About');
+var CollapsingArranger = require('layout/CollapsingArranger');
 
 module.exports = kind({
     kind: Panels,
-//    arrangerKind: CollapsingArranger,
+    arrangerKind: CollapsingArranger,
     components:[
 /*	{kind: "enyo.AppMenu", style: "overflow: hidden;", components: [
 	    { kind: "enyo.AppMenuItem", content: "About", ontap: "showAbout" }

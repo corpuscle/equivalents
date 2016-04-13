@@ -8,13 +8,13 @@ module.exports = kind({
     components:[
 	// Fall-back content if we're not on webOS
 	{name: "identity", kind: Toolbar, content: "Equivalents in the browser"},
-	{name: "copyright", content: "\251 Copyright 2015 Ian Miller"}
+	{name: "copyright", content: "\251 Copyright 2016 Ian Miller"}
     ],
     create: function() {
 	this.inherited(arguments);
 	if (window.PalmSystem) {
-	    this.$.identity.setContent(webos.fetchAppInfo().title + " " + webos.fetchAppInfo().version);
-	    this.$.copyright.setContent("\251 Copyright 2015 " + webos.fetchAppInfo().vendor);
+//	    this.$.identity.setContent(webos.fetchAppInfo().title + " " + webos.fetchAppInfo().version);
+//	    this.$.copyright.setContent("\251 Copyright 2016 " + webos.fetchAppInfo().vendor);
 	}
     }
 });
